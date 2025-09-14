@@ -1,0 +1,45 @@
+void main() {
+   This is my homework for the operators in Dart .
+  
+  //# 1.Arithmetic Operators( used for math operations):
+
+  int a = 12;
+  int b = 9;
+  print(a + b);
+  print(a - b);
+  print(a * b);
+  print(a / b); // Divison, returns double
+  print(a ~/ b); // Intrege Division
+  print(a % b); // Remainder
+  //  Used to compare values
+  print(a == b);
+  print(a != b); // not equal to
+  print(a > b);
+  print(a >= 25);
+  print(a <= 20); 
+
+   # 2. Assignment Opertors
+  int n = 15;
+  n += 5; //same as n = n + 5
+  print(n);
+  n -= 10;
+  print(n);
+  n *= 3;
+  print(n);
+  n ~/= 3; // integer division
+  print(n);
+  n %= 4; // remainder
+  print(n);  
+   
+  
+  // # 2.Logical Operators
+
+   bool isStudent = true;
+  bool isAttendingTheClass = false;
+
+  print(isStudent && isAttendingTheClass); // fale (AND)
+
+  print(isStudent || isAttendingTheClass); // ture (OR)
+
+  print(!isStudent); //false (Not) 
+}
