@@ -1,0 +1,26 @@
+
+void main() {
+  print("This is the homework for  manages product prices in a shop  in Dart.");
+    List<String> productsName = [];
+  List<double> priceValue = [];
+  void addproducts(String name, double price) {
+    productsName.add(name);
+    priceValue.add(price);
+
+    if (price > 100) {
+      print("$name product $price ->expensive");
+    } else {
+      print("$name product $price -> cheap");
+    }
+  }
+
+  addproducts("Laptop", 1800.0);
+  addproducts("Phone", 750.0);
+  addproducts("Headphone", 100.0);
+  addproducts("Keyboard", 80.0);
+  addproducts("Monitor", 180.0);
+  print("\nAll products and their prices");
+  for (int i = 0; i < productsName.length; i++) {
+    print("${productsName[i]} -> ${priceValue[i]}");
+  }
+}
